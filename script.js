@@ -12,7 +12,7 @@ btn.addEventListener("click", function() {
         } else {
             console.log("We connected to the server, but it returned an error.");
         }
-    };
+    }; 
 
     ourRequest.onerror = function() {
         console.log("Connection Error");
